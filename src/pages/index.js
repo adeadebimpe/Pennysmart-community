@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby'
 import Logo from '../images/Pennysmart-white.svg';
 
 import './index.css';
@@ -9,9 +10,11 @@ const IndexPage = () => (
 		<SEO />
 		<div className="row">
 			<div class="col">
-				<div className="community__image">
-          <Logo />
-        </div>
+				<div className="community__image">	
+					<a href="https://pennysmart.com" target="_blank" rel="noopener noreferrer" >
+					<Logo />
+					</a>
+				</div>
 			</div>
 			<div class="col">
 				<div className="community__text">
@@ -21,16 +24,27 @@ const IndexPage = () => (
 					<p>
 						We are students, working professionals, business founders, and local traders; our community
 						represents a fine mix of amazing individuals. We host members to amazing events and we invite
-						you to join us on this wonderful journey to groom the next wealthy generation of Africans. </p>
-              <p> We
-						host events on savings and investment approaches, building and creating wealth, and improvement
-						or addition of new skill sets. </p>
-            <p> Our Team focuses on choosing carefully curated finance advice and
-						experts, determining new ways to help you increase your income and improving your employability
-						or promotion at work. </p>
-            <button class="btn--primary">
-              Join our community
-            </button>
+						you to join us on this wonderful journey to groom the next wealthy generation of Africans.{' '}
+					</p>
+					<p>
+						{' '}
+						We host events on savings and investment approaches, building and creating wealth, and
+						improvement or addition of new skill sets.{' '}
+					</p>
+					<p>
+						{' '}
+						Our Team focuses on choosing carefully curated finance advice and experts, determining new ways
+						to help you increase your income and improving your employability or promotion at work.{' '}
+					</p>
+
+					<a
+						className="btn--primary"
+						href="https://join.slack.com/t/pennysmartcommunity/shared_invite/enQtNzQ1MDI1NTgwMTYxLTY5OGUxZGZmZTk5ZDc0YzAyOTcxNDkwMTYwNTRmNDhlMDdhODg4YzVjOWFkZDdiNTg0NmMwOTIxZTg1NWJkMTY"
+						target="_blank"
+						rel="noopener noreferrer" 
+					>
+						Join our community
+					</a>
 				</div>
 			</div>
 		</div>

@@ -99,6 +99,7 @@ body {
     .community__text {
         width: 70%;
         margin: 0 auto;
+      
     }
     .community__text h1 {
         font-size: 42px;
@@ -108,14 +109,21 @@ body {
 .community__text h1 > span {
     color: #614AD3;
 }
+.community__text p {
+    margin-bottom: 2rem;
+}
+a {
+    cursor: pointer;
+}
 .btn--primary {
     background-color: #F28A31;
     border-radius: 5px;
     border: none;
     box-shadow: 0px 10px 30px rgba(242, 138, 49, 0.2);
     color: #fff;
-    cursor: pointer;
+ 
     font-weight: 400;
-    padding: 0.6rem 2rem;
-    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+   
+    text-decoration: none;
 }
