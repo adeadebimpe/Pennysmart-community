@@ -6,6 +6,7 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
 	<div className="community">
+		<SEO />
 		<div className="row">
 			<div class="col">
 				<div className="community__image">
