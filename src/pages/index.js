@@ -1,7 +1,8 @@
 import React from 'react';
-import Logo from '../images/Pennysmart-white.svg';
+
 
 import './index.css';
+import Logo from '../images/Pennysmart-white.svg';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
