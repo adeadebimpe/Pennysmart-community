@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import './normalize.css';
+@font-face {
+	font-family: 'Gordita';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/gordita/Gordita-Regular.otf');
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: 'Gordita';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/gordita/Gordita-Medium.otf');
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: 'Gordita';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/gordita/Gordita-Bold.otf');
+	text-rendering: optimizeLegibility;
+}
+@font-face {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/gilroy/Gilroy-Bold.woff');
+	text-rendering: optimizeLegibility;
+}
+body {
+    font-family: 'Gordita', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #494368;
+}
+@media screen and (min-width: 1200px) {
+  body {
+      overflow-y: hidden;
+  }
+}
+.community {
+    min-height: 100vh;
+}
+.row {
+    display: flex; 
+    flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+    .row {
+        align-items: center;
+        flex-direction: row
+    }
+}
+.col {
+
+    flex-basis: 100%;
+    margin-bottom: 2%;
+}
+@media screen and (min-width: 768px) {
+    .col {
+        flex-basis: 49%;
+    }
+    .col:not(:last-child){
+        margin-right: 2%;
+    }
+}
+.community__image {
+    background-color: #34007E;
+    background-image: url(../images/pennysmart-community.jpg) no-repeat;
+    background: linear-gradient(rgba(73, 67, 104, 0.5), rgba(73, 67, 104, 0.5)), url(../images/pennysmart-community.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 1200px) {
+    .community__image {
+     height: 100vh;
+    max-height: 100vh;
+    }
+}
+.community__text {
+    width: 80%;
+    margin: 0 auto;
+}
+.community__text h1 {
+    font-size: 36px;
+    line-height: 1.5;
+    font-family: 'Gilroy', sans-serif;
+}
+.community__text p {
+    line-height: 2;
+}
+@media screen and (min-width: 1200px) {
+    .community__text {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .community__text h1 {
+        font-size: 42px;
+        line-height: 1.5;
+    }
+}
+.community__text h1 > span {
+    color: #614AD3;
+}
+.btn--primary {
+    background-color: #F28A31;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 10px 30px rgba(242, 138, 49, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 0.6rem 2rem;
+    margin-top: 2rem;
+}
