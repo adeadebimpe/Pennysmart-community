@@ -8,5 +8,5 @@
 Pennysmart
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+We are students, working professionals, business founders, and local traders; our community represents a fine mix of amazing individuals. We host members to amazing events and we invite you to join us on this wonderful journey to groom the next wealthy generation of Africans.
 
