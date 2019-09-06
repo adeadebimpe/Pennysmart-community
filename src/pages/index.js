@@ -39,7 +39,7 @@ const IndexPage = () => (
 
 					<a
 						className="btn--primary"
-						href="https://join.slack.com/t/pennysmartcommunity/shared_invite/enQtNzQ1MDI1NTgwMTYxLTY5OGUxZGZmZTk5ZDc0YzAyOTcxNDkwMTYwNTRmNDhlMDdhODg4YzVjOWFkZDdiNTg0NmMwOTIxZTg1NWJkMTY"
+						href="https://chat.whatsapp.com/HdJurJw9EDb9ezbk6PvggR"
 						target="_blank"
 						rel="noopener noreferrer" 
 					>
