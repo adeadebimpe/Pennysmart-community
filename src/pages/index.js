@@ -42,10 +42,10 @@ const IndexPage = () => (
 						Support from seasoned experts.
 						</li>
 						<li>
-						Network with your peers in higher positions in their career
+						Network with your peers in higher positions in their career.
 						</li>
 						<li>
-						Access to skill training workshops and masterclasses
+						Access to skill training workshops and masterclasses.
 						</li>
 						<li>
 						Belong to the top 5% of Ghanaians actively trying to  grow their net worth.
