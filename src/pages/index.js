@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby'
 import Logo from '../images/Pennysmart-white.svg';
 
 import './index.css';
@@ -18,27 +17,42 @@ const IndexPage = () => (
 			</div>
 			<div class="col">
 				<div className="community__text">
+					<a
+						className={`btn--primary top-button`}
+						href="https://chat.whatsapp.com/HdJurJw9EDb9ezbk6PvggR"
+						target="_blank"
+						rel="noopener noreferrer" 
+					>
+						Join our community
+					</a>
 					<h1>
 						Meet other <span>financially savvy</span> people in Accra.
 					</h1>
 					<p>
-						We are students, working professionals, business founders, and local traders; our community
-						represents a fine mix of amazing individuals. We host members to amazing events and we invite
-						you to join us on this wonderful journey to groom the next wealthy generation of Africans.{' '}
+					We are students, working professionals, business founders, and local traders; our community represents a fine mix of amazing individuals.
 					</p>
 					<p>
-						{' '}
-						We host events on savings and investment approaches, building and creating wealth, and
-						improvement or addition of new skill sets.{' '}
+					We host events that focuses on curated finance advice from experts, new ways to help you increase your income and improving your employability or promotion at work. 
 					</p>
-					<p>
-						{' '}
-						Our Team focuses on choosing carefully curated finance advice and experts, determining new ways
-						to help you increase your income and improving your employability or promotion at work.{' '}
-					</p>
-
+					<span>
+						Benefits:
+					</span>
+					<ul>
+						<li>
+						Support from seasoned experts.
+						</li>
+						<li>
+						Network with your peers in higher positions in their career
+						</li>
+						<li>
+						Access to skill training workshops and masterclasses
+						</li>
+						<li>
+						Belong to the top 5% of Ghanaians actively trying to  grow their net worth.
+						</li>
+					</ul>
 					<a
-						className="btn--primary"
+						className={`btn--primary bottom-button`}
 						href="https://chat.whatsapp.com/HdJurJw9EDb9ezbk6PvggR"
 						target="_blank"
 						rel="noopener noreferrer" 
