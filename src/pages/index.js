@@ -6,16 +6,16 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
 	<div className="community">
-		<SEO />
+		<SEO title="Pennysmart Community" />
 		<div className="row">
-			<div class="col">
+			<div className="col">
 				<div className="community__image">	
 					<a href="https://pennysmart.com" target="_blank" rel="noopener noreferrer" >
 					<Logo />
 					</a>
 				</div>
 			</div>
-			<div class="col">
+			<div className="col">
 				<div className="community__text">
 					<a
 						className={`btn--primary top-button`}
