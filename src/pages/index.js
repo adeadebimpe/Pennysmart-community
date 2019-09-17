@@ -54,7 +54,7 @@ const IndexPage = () => (
 					</ul>
 					<a
 						className={`btn--primary bottom-button`}
-						href="https://chat.whatsapp.com/HdJurJw9EDb9ezbk6PvggR"
+						href="https://t.me/pennysmartcommunity"
 						target="_blank"
 						rel="noopener noreferrer" 
 					>
